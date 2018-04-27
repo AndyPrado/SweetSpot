@@ -8,3 +8,4 @@ C:\Users\andya\Desktop\MVCAlura\SweetSpot\sweetspot\obj\Debug\netcoreapp2.0\Swee
 C:\Users\andya\Desktop\MVCAlura\SweetSpot\sweetspot\obj\Debug\netcoreapp2.0\SweetSpot.AssemblyInfo.cs
 C:\Users\andya\Desktop\MVCAlura\SweetSpot\sweetspot\obj\Debug\netcoreapp2.0\SweetSpot.dll
 C:\Users\andya\Desktop\MVCAlura\SweetSpot\sweetspot\obj\Debug\netcoreapp2.0\SweetSpot.pdb
+C:\Users\andya\Desktop\MVCAlura\SweetSpot\SweetSpot\obj\Debug\netcoreapp2.0\SweetSpot.csprojResolveAssemblyReference.cache

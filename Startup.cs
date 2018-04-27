@@ -25,7 +25,7 @@ namespace SweetSpot
             services.AddMvc();
 
             //confugura o uso do banco
-            string connectionString = @"Data Source=LAPTOP-9E82IF5J\SQLEXPRESS;Initial Catalog=SweetSpot;Integrated Security=True";
+            string connectionString = @"Data Source=LAPTOP-9E82IF5J\SQLEXPRESS;Initial Catalog=SSDB;Integrated Security=True";
             services.AddDbContext<MyDbContext>(options => options.UseSqlServer(connectionString));
         }
 

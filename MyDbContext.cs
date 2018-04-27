@@ -7,10 +7,15 @@ using System.Threading.Tasks;
 
 namespace SweetSpot
 {
-    public class MyDbContext : DbContext
+    public class MyDbContext : DbContext 
     {
         //DbSets
         public DbSet<Product> Products { get; set; }
         public DbSet<Ingredients> Ingredients { get; set; }
+
+        public MyDbContext(DbContextOptions<MyDbContext> options) : base(options)
+        {
+            
+        }
     }
 }
