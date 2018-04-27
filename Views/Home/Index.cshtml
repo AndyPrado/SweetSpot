@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2> Nossos Produtos </h2>
+
+<div class="row">
+
+    @foreach(var item in Model){
+        <div class="col-md-3">            
+            <div class="panel panel-default">
+                <div class="panel-heading"> @item.Name</div>
+                <div class="panel-body">                    
+                    <img src=".\images\catalogo\@(item.Image)" class="img-responsive" alt="Image">                  
+                </div>
+                
+                <div class="panel-footer">
+                    <div>@(item.Description)</div>
+                    <p>@(item.Price)</p>
+                    
+                    
+                </div>
+            </div>            
+        </div>        
+    }
+</div>
+
+
+<form action="" method="POST" role="form">
+    <legend>Teste de envio de imagem</legend>
+
+    <div class="form-group">
+        <label for="">Imagem</label>
+        <input type="file" class="form-control form-teste" id="">
+    </div>   
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "Encomendas";
+}
+
+<h2>Encomendas</h2>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <!--Tabela-->
+        <table class="table table-hover encomendas-table"/>
+            <thead class="my-table-heading">
+                <tr>
+                    <th>Nº</th>
+                    <th>Cliente</th>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Data de entrega</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                @for(var i = 0; i<2; i++){
+
+                    <tr>
+                        <td>1</td>
+                        <td>Lara Bassan</td>
+                        <td>Sabonete líquido</td>
+                        <td>1</td>
+                        <td>10/10/2018</td>
+                    </tr>   
+                }
+            </tbody>            
+        </table>        
+    </div> 
+    <div><a class="btn btn-default pull-right add-button" asp-controller="Order" asp-action="Add">Adicionar</a></div> 
+</div>

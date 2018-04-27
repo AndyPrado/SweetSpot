@@ -1,0 +1,87 @@
+﻿body {
+    padding-top: 105px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+.navbar-inverse, 
+.navbar-collapse{
+    background-color: #ffeed2 !important;
+    height: 105px;
+    border-bottom-color: whitesmoke !important;
+}
+
+.navbar-brand {
+    background: url('../images/logo_menu.png');
+    width: 150px;
+    height: 104px !important;      
+}
+
+.ul-menu{
+    height: 104px;
+}
+
+.li-menu{
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+}
+
+.encomendas-table{
+
+    margin-bottom: 0px !important;
+}
+
+hr{
+    margin-top: 60px !important;
+}
+
+.add-button,
+.add-order-form{
+    margin-top: 20px !important;
+}
+
+.order-title{
+    font-size: 30px;
+}
+
+.form-label{
+    font-size: 18px;
+}
+
+.form-teste{
+    padding: 0px !important;
+    width: 30% !important;
+}
+
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+

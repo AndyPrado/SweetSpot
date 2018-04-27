@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Adicionar Encomenda";
+}
+
+<form class="add-order-form" action="" method="POST" role="form">
+    <legend class="order-title">Adicionar Nova Encomenda</legend>
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label class="form-label" for="">Cliente</label>
+            <input type="text" class="form-control" id="" placeholder="Insira o nome do cliente">
+        </div>
+        <div class="form-group col-md-3">
+            <label class="form-label" for="">Data do pedido</label>
+            <input type="date" class="form-control" id="" placeholder="Insira a data do pedido">
+        </div>
+        <div class="form-group col-md-3">
+            <label class="form-label" for="">Data de entrega</label>
+            <input type="date" class="form-control" id="" placeholder="Insira a data de entrega">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-md-5">
+            <label class="form-label" for="">Produto</label>
+            <input type="text" class="form-control" id="" placeholder="Selecione o produto">
+        </div>
+        <div class="form-group col-md-2">
+            <label class="form-label" for="">Quantidade</label>
+            <input type="text" class="form-control" id="" placeholder="Insira a quantidade">
+        </div>
+        <div class="form-group col-md-5">
+            <label class="form-label" for="">Fragrância</label>
+            <input type="text" class="form-control" id="" placeholder="Selecione a fragrância">
+        </div>        
+    </div>
+    <div class="row">
+        <div class="form-group col-md-2">
+            <label class="form-label" for="">Valor Unitário</label>
+            <input type="text" class="form-control" id="" placeholder="Selecione o produto">
+        </div>
+        <div class="form-group col-md-2">
+            <label class="form-label" for="">Valor Total</label>
+            <input type="text" class="form-control" id="" placeholder="Insira a quantidade">
+        </div>                
+    </div>
+    
+    <button type="submit" class="btn btn-primary submit-button pull-right">Adicionar</button>
+</form>
